@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.fa-trash,
+.fa-square-minus {
+  color: #9FA6B2;
+}
+
+.fa-trash:hover,
+.fa-square-minus:hover {
+  color: red;
+  transition: 0.2s;
+}
+
+.fa-calendar-xmark {
+  color: rgb(125, 184, 204);
+}
+
+.fa-pen-to-square {
+  color: #9FA6B2;
+}
+
+.fa-pen-to-square:hover {
+  color: rgb(127, 105, 255);
+}

@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+.signup {
+    padding-top: 5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.signup .wrapper {
+    position: relative;
+    max-width: 470px;
+    width: 120%;
+    border-radius: 12px;
+    padding: 20px 30px 120px;
+    background: #3a78ea;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.signup .form.login {
+    position: absolute;
+    left: 50%;
+    bottom: -86%;
+    transform: translateX(-50%);
+    width: calc(120% + 220px);
+    padding: 20px 190px;
+    border-radius: 50%;
+    height: 100%;
+    background: #fff;
+    transition: all 0.6s ease;
+}
+
+.signup .form header {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.signup .form.login header {
+    color: #333;
+    opacity: 0.6;
+}
+
+.signup .wrapper.active .form.login header {
+    opacity: 1;
+}
+
+.signup .wrapper.active .signup header {
+    opacity: 0.6;
+}
+
+.signup .wrapper form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.signup form input {
+    height: 60px;
+    outline: none;
+    border: none;
+    padding: 0 15px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 8px;
+    background: #fff;
+}
+
+
+.signup form .authbtn {
+    height: 60px;
+    outline: none;
+    border: none;
+    padding: 0 15px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 8px;
+    background: #65b5ff;
+}
+
+
+.signup .form.login input {
+    border: 1px solid #aaa;
+}
+
+.signup .form.login input:focus {
+    box-shadow: 0 1px 0 #ddd;
+}
+
+.signup form .checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.signup .checkbox input[type='checkbox'] {
+    height: 16px;
+    width: 16px;
+    accent-color: #fff;
+    cursor: pointer;
+}
+
+.signup form .checkbox label {
+    cursor: pointer;
+    color: #fff;
+}
+
+.signup form a {
+    color: #333;
+    text-decoration: none;
+}
+
+.signup form a:hover {
+    text-decoration: underline;
+}
+
+.signup form input[type='submit'] {
+    margin-top: 15px;
+    padding: none;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.signup .form.login input[type='submit'] {
+    background: #3a78ea;
+    color: #fff;
+    border: none;
+}
+
+#demo {
+    text-align: center;
+    display: none;
+}
+
+#UserId {
+    display: none;
+}
+
+#demon {
+    text-align: center;
+}
